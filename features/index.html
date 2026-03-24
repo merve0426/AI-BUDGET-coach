@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Budget Coach</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Budget Coach</h1>
+    <p class="subtitle">
+      Enter your income and expenses to get AI-powered budget insights.
+    </p>
+
+    <div class="card">
+      <label for="income">Monthly Income</label>
+      <input type="text" id="income" placeholder="e.g. 12000 TL" />
+
+      <label for="expenses">Expenses</label>
+      <textarea id="expenses" rows="8" placeholder="e.g. Rent: 4000 TL&#10;Food: 2500 TL&#10;Coffee: 900 TL&#10;Transport: 1200 TL"></textarea>
+
+      <button id="analyzeBtn">Analyze Budget</button>
+    </div>
+
+    <div class="card result-box">
+      <h2>Results</h2>
+      <p id="result">
+        Your AI-powered spending analysis will appear here.
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
