@@ -34,6 +34,8 @@ AI Budget Coach is a web application that uses artificial intelligence to analyz
 
 ## Demo
 Will be added after deployment  
+## Live Demo
+https://wonderful-dolphin-06997e.netlify.app
 
 ## Live App
 Will be added after deployment  
